@@ -1,0 +1,225 @@
+.top-cart {
+    height: 400px;
+    background-image: url(./images/topcart.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.heading-big {
+color: rgb(255, 255, 255);
+font-size: 64px;
+font-weight: 600;
+line-height: 70px;
+text-align: left;
+margin-top: 127px;
+}
+
+.tovar {
+    padding-top: 32px;
+}
+.cart {
+    margin-top: 64px;
+
+    &__form {
+        background: #F7F6F6;
+        border-radius: 20px;
+        height: 556px;
+        grid-column: span 4;
+    }
+
+    &__name-box {
+       grid-column: span 8;
+       display: flex;
+       flex-direction: column;
+       justify-content: space-between;
+    }
+
+    &__content{
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        gap: 32px;
+    }
+
+    &__top { 
+        display: flex;
+        justify-content: space-between;
+        padding-right: 14px;
+
+    }
+    
+    &__item {
+        display: flex;
+        padding-top: 25px;
+        border-top: 0.5px solid #CACDD8;
+        padding-bottom: 32px;
+        justify-content: space-between;
+    }
+
+    &__item_scnd {
+        padding-top: 32px;
+    }
+    &__left {
+        display: flex;
+        gap: 32px;
+    }
+
+    &__inform {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 29.26px;
+        max-width: 276px;
+    }
+
+    &__price {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19.5px;
+    }
+    &-form__price {
+        font-size: 16px;
+    }
+    &-form__img {
+        height: 144px;
+    }
+    &-form__link {
+        line-height: 29.4px;
+        color: black;
+    }
+    &-form__link-box {
+        display: flex;
+        justify-content: flex-start;
+        gap: 24px;
+    }
+    
+    &__heading {
+        font-size: 24px;
+        font-weight: 500; 
+        line-height: 19.5px;       
+    }   
+
+    &__input {
+        font-family: inherit;
+        width: 71px;
+        height: 51px;
+        border-radius: 6px;
+        text-align: center;
+        background: #F7F6F6;
+        border: 1px solid #F7F6F6;
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+    &__text {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 17.07px;
+        color: #888888;
+    }
+
+    &__link-box {
+        display: flex;
+        justify-content: flex-start;
+        gap: 30px;
+    }
+
+    &__link {
+        line-height: 29.4px;
+        color: black;
+
+    }
+
+    &__btns-box {
+        display: flex;
+        padding-top: 18px;
+        gap: 7px;
+    }
+
+    &__btn {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        text-decoration: none;
+        color: black;
+        border: 1px solid rgb(4, 4, 4);
+        background: white;
+        border-radius: 20px;
+        width: 200px;
+        height: 37px;
+        font-family: Montserrat;
+        font-size: 14px;
+    }
+
+    &__btn:hover {
+        background-color: #000000;
+        color: #FFFFFF;
+    }
+
+    &__order {
+        text-align: center;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 29.26px;
+        margin-top: 42px;
+    }
+
+    &__order-input {
+        width: 288px;
+        height: 143px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-top: 35px;
+        margin-left: 27px;
+    }
+
+    &__order-text {
+        background-color: transparent;
+        border: none;
+        border-bottom: 1px solid #CACDD8;
+        font: inherit;
+        align-items: flex-start;
+    }
+
+    &__order-total {
+        text-align: center;
+        margin-top: 64px;
+    }
+ 
+    &__order-total-text {
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 29.26px;
+        text-align: center;
+        
+    }
+
+    &__order-totalprice{
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 29.26px;
+        text-align: center;
+        margin-top: 64px;
+    }
+
+    &__order-btn {
+        display: flex;
+        justify-content: center;
+        margin-top: 18px;
+    }
+    
+}
+
+.cart__order-button {
+    border: 1px solid rgb(4, 4, 4);
+    background: rgb(247, 246, 246);
+    border-radius: 20px;
+    height: 40px;
+    font: inherit;
+    font-size: 15px;
+    width: 290px;
+    height: 40px;
+}
